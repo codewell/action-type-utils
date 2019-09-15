@@ -1,5 +1,5 @@
 {
-  "name": "@coodewell/get-action-prefix",
+  "name": "@codewell/get-action-prefix",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
