@@ -1,8 +1,7 @@
-/**
- * Get the prefix of an actionType
- * @param {string} actionType - E.g. 'SET_SOME_FIELD'
- * @returns {string} - Prefix: 'SET'
- */
-const getActionPrefix = actionType => actionType.split('_')[0];
+const getActionTypePrefix = require('./getActionTypePrefix');
+const getStatePropertyFromActionType = require('./getStatePropertyFromActionType');
 
-module.exports = getActionPrefix;
+module.exports = {
+  getActionTypePrefix,
+  getStatePropertyFromActionType,
+};
