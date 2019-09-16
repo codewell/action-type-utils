@@ -1,5 +1,5 @@
 {
-  "name": "@codewell/get-action-prefix",
+  "name": "@codewell/action-type-utils",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codewell/get-action-prefix.git"
+    "url": "git+https://github.com/codewell/action-type-utils.git"
   },
   "keywords": [],
   "author": "Filip Johansson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codewell/get-action-prefix/issues"
+    "url": "https://github.com/codewell/action-type-utils/issues"
   },
-  "homepage": "https://github.com/codewell/get-action-prefix#readme"
+  "homepage": "https://github.com/codewell/action-type-utils#readme"
 }
