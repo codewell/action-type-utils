@@ -1,14 +1,21 @@
-# @codewell/get-action-prefix
+# @codewell/action-type-utils
 
 ## Installation
 ```
-npm install @codewell/get-action-prefix
+npm install @codewell/action-type-utils
 ```
 
 ## Basic usage
 ```JavaScript
-import getActionPrefix from '@codewell/get-action-prefix';
+import { getActionTypePrefix } from '@codewell/action-type-utils';
 
-getActionPrefix('ACTION_TYPE');
-// => 'ACTION'
+getActionTypePrefix('SET_STATE_PROPERTY');
+// => 'SET'
+```
+
+```JavaScript
+import { getStatePropertyFromActionType } from '@codewell/action-type-utils';
+
+getStatePropertyFromActionType('SOME_STATE_PROPERTY');
+// => 'stateProperty'
 ```
