@@ -7,7 +7,7 @@
     "@codewell/snake-case-to-camel-case": "^1.0.0"
   },
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^25.3.0"
   },
   "scripts": {
     "test": "jest"
